@@ -305,18 +305,3 @@ void print22(int n){
 }
 }
 
-void vectors(){
-    vector<int> v(3,100);
-    v.insert(v.begin()+1,2,5);
-
-    for(auto it:v){
-        cout<< it << " ";
-    }
-}
-
-
-int main(){
-    
-    vectors();
-    // p2(n);a
-}
